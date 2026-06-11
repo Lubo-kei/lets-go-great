@@ -32,18 +32,6 @@ export default function Article() {
 
           <div className="absolute inset-0 bg-black/60" />
 
-          <div className="my-10 rounded-2xl border border-[#D0FE1D] bg-[#F7FFD0] p-6">
-  <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[#6B7280]">
-    Kľúčová myšlienka
-  </p>
-
-  <p className="text-lg leading-8 text-[#1F1F1F]">
-    Pri každom bežeckom kroku dopadáme na zem silou približne 2 až 2,5-násobku
-    svojej telesnej hmotnosti. Pri maratónskom tempe môžu byť tieto sily ešte
-    vyššie a dosahovať približne trojnásobok telesnej hmotnosti.
-  </p>
-</div>
-
           <div className="relative max-w-5xl">
             <p className="uppercase tracking-[0.2em] text-sm text-[#E8FF00] mb-6">
               {article.category}
